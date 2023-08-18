@@ -1,0 +1,149 @@
+.app-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-card {
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+  margin: 100px;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 32px;
+  color: #171f46;
+  font-weight: 800;
+}
+.title-la {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.title {
+  height: 35px;
+  width: 330px;
+  color: #b5b7c4;
+  font-weight: 500;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    height: 30px;
+    width: 200px;
+  }
+}
+.date-la {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.date {
+  height: 35px;
+  width: 330px;
+  color: #b5b7c4;
+  font-weight: 500;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .date {
+    height: 30px;
+    width: 200px;
+  }
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn {
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+}
+
+.img-size {
+  height: 250px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .img-size {
+    height: 180px;
+    width: 200px;
+  }
+}
+
+.hr-line {
+  width: 90%;
+  border: 1px solid #b5b7c4;
+}
+
+.item-container {
+  margin-left: 40px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Starred {
+  height: 32px;
+  width: 100px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  color: #94b0ce;
+  border: 1px solid;
+}

@@ -1,0 +1,35 @@
+.each-appointment {
+  border: 1px solid #9897f0;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.title-star {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title-name {
+  margin: 0px;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.star {
+  height: 30px;
+  width: 30px;
+}
+
+.date-tme {
+  margin: 10px;
+  color: #b5b7c6;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.star-btn {
+  border: none;
+  background-color: #fff;
+}
